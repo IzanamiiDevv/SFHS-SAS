@@ -13,7 +13,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="img/logo/attnlg.jpg" rel="icon">
+    <link href="img/logo/attnlgs.jpg" rel="icon">
     <title>SFHS - Forget Password</title>
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -32,7 +32,7 @@ session_start();
                             <div class="col-lg-12">
                                 <div class="login-form">
                                     <div class="text-center">
-                                        <img src="img/logo/attnlg.jpg" style="width:100px;height:100px">
+                                        <img src="img/logo/attnlgs.jpg" style="width:100px;height:100px">
                                         <br><br>
                                         <h1 class="h4 text-gray-900 mb-4">Forgot Password</h1>
                                     </div>

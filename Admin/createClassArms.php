@@ -4,8 +4,6 @@ error_reporting(0);
 include '../Includes/dbcon.php';
 include '../Includes/session.php';
 
-//------------------------SAVE--------------------------------------------------
-
 if(isset($_POST['save'])){
     
     $classId=$_POST['classId'];
@@ -33,23 +31,12 @@ if(isset($_POST['save'])){
   }
 }
 
-//---------------------------------------EDIT-------------------------------------------------------------
-
-
-
-
-
-
-//--------------------EDIT------------------------------------------------------------
-
  if (isset($_GET['Id']) && isset($_GET['action']) && $_GET['action'] == "edit")
 	{
         $Id= $_GET['Id'];
 
         $query=mysqli_query($conn,"select * from tblclassarms where Id ='$Id'");
         $row=mysqli_fetch_array($query);
-
-        //------------UPDATE-----------------------------
 
         if(isset($_POST['update'])){
     
@@ -71,8 +58,6 @@ if(isset($_POST['save'])){
         }
     }
 
-
-//--------------------------------DELETE------------------------------------------------------------------
 
   if (isset($_GET['Id']) && isset($_GET['action']) && $_GET['action'] == "delete")
 	{
@@ -105,7 +90,7 @@ if(isset($_POST['save'])){
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link href="img/logo/attnlg.jpg" rel="icon">
+  <link href="img/logo/attnlgs.jpg" rel="icon">
 <?php include 'includes/title.php';?>
   <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
