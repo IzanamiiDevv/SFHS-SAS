@@ -1,1 +1,1 @@
-  <title>SFHS - Dashboard</title>
+<title>SFHS - Dashboard</title>
