@@ -21,7 +21,6 @@ if(isset($_POST['save'])){
     $ret=mysqli_fetch_array($query);
 
     $sampPass = "pass123";
-    $sampPass_2 = md5($sampPass);
 
     if($ret > 0){ 
 
@@ -30,7 +29,7 @@ if(isset($_POST['save'])){
     else{
 
     $query=mysqli_query($conn,"INSERT into tblclassteacher(firstName,lastName,emailAddress,password,phoneNo,classId,classArmId,dateCreated) 
-    value('$firstName','$lastName','$emailAddress','$sampPass_2','$phoneNo','$classId','$classArmId','$dateCreated')");
+    value('$firstName','$lastName','$emailAddress','$sampPass','$phoneNo','$classId','$classArmId','$dateCreated')");
 
     if ($query) {
         
