@@ -1,1 +1,1 @@
-  <title>AMS - Dashboard</title>
+  <title>SFHS - Dashboard</title>
