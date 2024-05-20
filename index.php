@@ -70,7 +70,6 @@ session_start();
     $userType = $_POST['userType'];
     $username = $_POST['username'];
     $password = $_POST['password'];
-    $password = md5($password);
 
     if($userType == "Administrator"){
 
