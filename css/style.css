@@ -94,3 +94,34 @@ header nav ul li a.active {
         margin: 5px 0;
     }
 }
+
+main {
+    color: #000;
+    justify-content: center;
+    text-align: center;
+}
+
+main h1 {
+    padding-top: 30vh;
+}
+
+main h1, main h2 {
+    font-size: 2rem;
+}
+
+main h2 {
+    padding-bottom: 5vh;
+}
+
+main a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #6aa84f;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+}
+
+main a:hover, main a:active {
+    background-color: #73b457;
+}
