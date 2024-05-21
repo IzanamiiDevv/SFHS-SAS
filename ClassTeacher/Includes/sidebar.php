@@ -3,7 +3,7 @@
         <div class="sidebar-brand-icon" >
           <img src="../img/logo/attnlgs.jpg">
         </div>
-        <div class="sidebar-brand-text mx-3">SFHS AMS</div>
+        <div class="sidebar-brand-text mx-3">SFHS SAS</div>
       </a>
       <hr class="sidebar-divider my-0">
       <li class="nav-item active">

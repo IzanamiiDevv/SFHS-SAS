@@ -201,7 +201,7 @@ if(isset($_POST['save'])){
                         <input type="text" class="form-control" name="otherName" value="<?php echo $row['otherName'];?>" id="exampleInputFirstName" >
                         </div>
                         <div class="col-xl-6">
-                        <label class="form-control-label">Admission Number<span class="text-danger ml-2">*</span></label>
+                        <label class="form-control-label">LRN<span class="text-danger ml-2">*</span></label>
                       <input type="text" class="form-control" required name="admissionNumber" value="<?php echo $row['admissionNumber'];?>" id="exampleInputFirstName" >
                         </div>
                     </div>
